@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EJERCICIO 2</title>
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            resize: none;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+    <h1>CATÁLOGO DE ARTE</h1>
+
+    <p>Introduce los términos de búsqueda:</p>
+
+    <form action="Ejercicio2.php" method="post">
+        <table>
+            <tr>
+                <td><strong>OBRA</strong></td>
+                <td><strong>TIPO</strong></td>
+                <td><strong>DISPONIBILIDAD</strong></td>
+                <td><strong>ESTILO</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="titulo">Título</label><br>
+                    <input type="text"  name="titulo"><br><br>
+                    <label for="autor">Autor</label><br>
+                    <input type="text"  name="autor">
+                </td>
+                <td>
+                    <input type="checkbox" id="esc" name="esc" value="Escultura">
+                    <label for="esc">Escultura</label><br>
+                    <input type="checkbox" id="arq" name="tipo" value="Arquitectura">
+                    <label for="arq">Arquitectura</label><br>
+                    <input type="checkbox" id="pint" name="tipo" value="Pintura">
+                    <label for="pint">Pintura</label>
+                </td>
+                <td>
+                    <input type="radio"  name="disp" value="Museo/Acceso Público">
+                    <label for="Pub">Museo / Acceso público</label><br>
+                    <input type="radio"  name="priv" value="Colección Privada">
+                    <label for="coleccion">Colección privada</label>
+                </td>
+                <td>
+                    <select name="estilo" >
+                        <option value="clas">Clásico</option>
+                        <option value="abs">Abstracto</option>
+                        <option value="surr">Surrealista</option>
+                        <option value="otr">Otros</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <label for="sugerencias">Háganos saber sus sugerencias:</label><br>
+        <textarea  name="sugerencias" rows="4" cols="40">sugerencias</textarea>
+
+        <br><br>
+
+        <input type="submit" value="Buscar">
+    </div>
+    </form>
+</body>
+</html>

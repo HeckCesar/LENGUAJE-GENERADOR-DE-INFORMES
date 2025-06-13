@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Arte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .obra {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .obra img {
+            width: 100%;
+            height: auto;
+        }
+        .detalle {
+            padding: 15px;
+        }
+        .detalle h2 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+            color: #444;
+        }
+        .detalle p {
+            margin: 5px 0;
+            font-size: 0.95em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Catálogo de Arte</h1>
+
+<div class="catalogo">
+    <div class="obra">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Mona_Lisa.jpg" alt="Mona Lisa">
+        <div class="detalle">
+            <h2>Mona Lisa</h2>
+            <p><strong>Autor:</strong> Leonardo da Vinci</p>
+            <p>Una de las pinturas más famosas del Renacimiento, conocida por su misteriosa sonrisa.</p>
+        </div>
+    </div>
+
+    <div class="obra">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/74/The_Starry_Night.jpg" alt="La noche estrellada">
+        <div class="detalle">
+            <h2>La noche estrellada</h2>
+            <p><strong>Autor:</strong> Vincent van Gogh</p>
+            <p>Una representación emocional del cielo nocturno, pintada desde el asilo de Saint-Rémy.</p>
+        </div>
+    </div>
+
+    <!-- Puedes agregar más obras aquí -->
+</div>
+
+</body>
+</html>

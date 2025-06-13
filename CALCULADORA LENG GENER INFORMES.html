@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora Heck</title>
+</head>
+<body>
+    <FORM ACTION="CALCULADORA.PHP" method="get" style="flex">
+
+    <table border="1" cellpadding="5" cellspacing="0" style="margin: 20px auto;">
+               <tr>
+            <td colspan="4">
+                <input type="text" name="txt_resultado" id="txt_resultado"
+                       style="width:200px; height:35px; font-size:18px;" readonly>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cmd_7" value="7" style="width:40px; height:40px; font-size:18px;" onclick="agregar('7')"></td>
+            <td><input type="button" name="cmd_8" value="8" style="width:40px; height:40px; font-size:18px;" onclick="agregar('8')"></td>
+            <td><input type="button" name="cmd_9" value="9" style="width:40px; height:40px; font-size:18px;" onclick="agregar('9')"></td>
+            <td><input type="button" name="cmd_div" value="/" style="width:40px; height:40px; font-size:18px;" onclick="agregar('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cmd_4" value="4" style="width:40px; height:40px; font-size:18px;" onclick="agregar('4')"></td>
+            <td><input type="button" name="cmd_5" value="5" style="width:40px; height:40px; font-size:18px;" onclick="agregar('5')"></td>
+            <td><input type="button" name="cmd_6" value="6" style="width:40px; height:40px; font-size:18px;" onclick="agregar('6')"></td>
+            <td><input type="button" name="cmd_mul" value="*" style="width:40px; height:40px; font-size:18px;" onclick="agregar('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cmd_1" value="1" style="width:40px; height:40px; font-size:18px;" onclick="agregar('1')"></td>
+            <td><input type="button" name="cmd_2" value="2" style="width:40px; height:40px; font-size:18px;" onclick="agregar('2')"></td>
+            <td><input type="button" name="cmd_3" value="3" style="width:40px; height:40px; font-size:18px;" onclick="agregar('3')"></td>
+            <td><input type="button" name="cmd_resta" value="-" style="width:40px; height:40px; font-size:18px;" onclick="agregar('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="cmd_0" value="0" style="width:40px; height:40px; font-size:18px;" onclick="agregar('0')"></td>
+            <td><input type="button" name="cmd_punto" value="." style="width:40px; height:40px; font-size:18px;" onclick="agregar('.')"></td>
+            <td><input type="button" name="cmd_suma" value="+" style="width:40px; height:40px; font-size:18px;" onclick="agregar('+')"></td>
+            <td><input type="button" name="cmd_limpiar" value="C" style="width:40px; height:40px; font-size:18px;" onclick="limpiar()"></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="button" name="cmd_calcular" value="Calcular"
+                       style="width:200px; height:35px; font-size:18px;" onclick="calcular()">
+            </td>
+        </tr>
+
+    </table>
+
+</FORM>
+</body>
+</html>

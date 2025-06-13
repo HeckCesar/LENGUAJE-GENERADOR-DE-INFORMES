@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 100%;
+        }
+
+        .botones {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            padding: 5px 15px;
+            margin: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <form actio="ejercicio1.php" method="post" style="flex">
+        <h2>INFORMACIÓN</h2>
+        <h3>Si quieres recibir la mejor información, regístrate:</h3>
+        
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Primer Apellido:</td>
+                <td><input type="text" name="apell1"></td>
+            </tr>
+            <tr>
+                <td>Segundo Apellido:</td>
+                <td><input type="text" name="apell2"></td>
+            </tr>
+            <tr>
+                <td>Domicilio:</td>
+                <td><input type="text" name="domicilio"></td>
+            </tr>
+            <tr>
+                <td>Código Postal:</td>
+                <td><input type="text" name="CP"></td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td><input type="text" name="tel"></td>
+            </tr>
+            <tr>
+                <td>e-mail:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Confirmar e-mail:</td>
+                <td><input type="email" name="c_email"></td>
+            </tr>
+        </table>
+
+        <div class="botones">
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+</body>
+</html>

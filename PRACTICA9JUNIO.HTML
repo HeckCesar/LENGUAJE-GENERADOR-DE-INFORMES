@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soporte de sistemas</title>
+    <style>
+body{ font-family: sans-serif; line-height: 1.6; margin: 20px; }
+form{ max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+div{ margin-bottom: 15px; }
+label{ display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea{ width: calc(100% - 22px); padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        input[type="date"], input[type="time"], input[type="file"], input[type="color"] { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+fieldset{ margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 8px; }
+legend{ font-weight: bold; margin-bottom: 10px; padding: 0 5px; }
+.inline-grouplabel{ display: inline-block; margin-right: 15px; font-weight: normal; }
+button{ display: block; width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+button:hover{ background-color: #0056b3; }
+</style>
+</head>
+<body>
+    <h1>Formulario de solicitud de  Soporte Técnico</h1>
+    <h2>Por favor, complete el siguiente formulario para solicitar soporte técnico.</h2>    
+    <fieldset>
+        <legend>Información del Usuario</legend>
+        <div>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="telefono">Teléfono de Contacto:</label>
+            <input type="tel" id="telefono" name="telefono">
+            </div>
+        <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+    </fieldset>
+    <fieldset>
+        <legend>informacion del equipo</legend>
+        <h2>Tipo de Procesador</h2><br>
+       <input type="radio" id="AMD" name="procesador" value="AMD"> <label for="AMD">AMD</label>
+       <input type="radio" id="Intel" name="procesador" value="Intel"> <label for="Intel">Intel i5</label>
+       <input type="radio" id="Intel i7" name="procesador" value="Intel i7"> <label for="Intel i7">Intel i7</label>
+       <input type="radio" id="Otro" name="procesador" value="Otro"> <label for="Otro">Otro</label>
+       <b>Hardware que presenta el Problema:</b>
+       <input type="checkbox" id="teclado" name="hardware" value="Teclado"> <label for="teclado">Teclado</label>
+       <input type="checkbox" id="tarjeta-grafica" name="hardware" value="Tarjeta Gráfica"> <label for="tarjeta-grafica">Tarjeta Gráfica</label>    
+         <input type="checkbox" id="disco-duro" name="hardware" value="Disco Duro"> <label for="disco-duro">Disco Duro</label>  
+         Sistema Operativo:
+            <select id="sistema-operativo" name="sistema-operativo">
+                <option value="Windows">Windows</option>
+                <option value="Linux">Linux</option>
+                <option value="macOS">macOS</option>
+                <option value="Otro">Otro</option>
+            </select>
+            Tipos de Conexión a Internet:
+            <select id="conexion-internet" name="conexion-internet">
+                <option value="Cable">Cable</option>
+                <option value="Wi-Fi">Wi-Fi</option>
+                <option value="Datos Móviles">Datos Móviles</option>
+                <option value="Otro">Otro</option>
+            </select>
+            Tipos de Conectores relevantes: 
+            <select id="conectores" name="conectores">
+                <option value="USB">USB</option>
+                <option value="HDMI">HDMI</option>
+                <option value="PS2">PS2</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <fieldset>
+                <legend>Detalle de la solicitud</legend>
+                <div>
+                    <label for="fecha">Fecha en que se presentó el problema (DD/MM/AAAA):</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+                <div>
+                    <label for="hora">Hora aproximada (HH:MM):</label>
+                    <input type="time" id="hora" name="hora" required>
+                </div>  
+                Descripción detallada del problema:
+                <textarea name="textarea" rows="4" required> Describa el problema</textarea>
+                  <label for="descripcion">Descripción del Problema:</label>
+            Adjuntar archivos relevantes (opcional):
+            <input type="file" id="archivo" name="archivo" accept=".jpg, .jpeg, .png, .pdf">
+            </fieldset> 
+            <legend>Información Adicional</legend>
+            <fieldset></fieldset>
+            <textarea id="descripcion" name="descripcion" rows="4" placeholder="Describa el problema detalladamente..." required></textarea>
+            
+            <input type="submit" value="Enviar Solicitud" style="border: 30px solid #007bff; background-color: #007bff; color: white; padding: 10px 15px; border-radius: 4px; cursor: pointer;">
+            </fieldset>
+        </div>
+        
+</body>
+</html>
