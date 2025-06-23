@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario punto 32</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+            <!-- Checkboxes de asignaturas -->
+            <label><input type="checkbox" name="asignatura" value="asignaturageografia"> Geografía</label>
+            <label><input type="checkbox" name="asignatura" value="asignaturalengua"> Lengua</label>
+            <label><input type="checkbox" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+            <label><input type="checkbox" name="asignatura" value="asignaturahistoria"> Historia</label>
+            <br><br>
+
+            <!-- Control para indicar la fecha -->
+            <label>Fecha: <input type="date" name="fecha1"></label>
+            <br><br>
+
+            <!-- Lista desplegable sexo -->
+            <label>Sexo:
+                <select name="sexo">
+                    <option value="mujer">Mujer</option>
+                    <option value="hombre">Hombre</option>
+                </select>
+            </label>
+            <br><br>
+
+            <!-- Radiobuttons provincia -->
+            <label><input type="radio" name="provincia" value="provinciaalbacete"> Albacete</label>
+            <label><input type="radio" name="provincia" value="provinciaciudad_real"> Ciudad Real</label>
+            <label><input type="radio" name="provincia" value="provinciacuenca"> Cuenca</label>
+            <label><input type="radio" name="provincia" value="provinciaguadalajara"> Guadalajara</label>
+            <label><input type="radio" name="provincia" value="provinciatoledo"> Toledo</label>
+            <br><br>
+
+            <!-- Control para indicar la hora -->
+            <label>Hora: <input type="time" name="hora1"></label>
+            <br><br>
+
+            <!-- Textarea -->
+            <textarea name="texto" rows="8" cols="56">Inserte aqui el texto</textarea>
+            <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Complete las siguientes Opciones</legend>
+
+            <!-- Segundo control para indicar la hora -->
+            <label>Hora: <input type="time" name="hora2"></label>
+            <br><br>
+
+            <!-- Checkboxes sexo -->
+            <label><input type="checkbox" name="sexo" value="sexohombre"> Hombre</label>
+            <label><input type="checkbox" name="sexo" value="sexomujer"> Mujer</label>
+            <br><br>
+
+            <!-- Control para elegir color -->
+            <label>Color: <input type="color" name="color"></label>
+            <br><br>
+
+            <!-- Radiobuttons idioma -->
+            <label><input type="radio" name="idioma" value="idiomaingles"> Inglés</label>
+            <label><input type="radio" name="idioma" value="idiomaaleman"> Alemán</label>
+            <label><input type="radio" name="idioma" value="idiomafrances"> Francés</label>
+            <br><br>
+
+            <!-- Cuadros de texto -->
+            <label>DNI: <input type="text" name="dni"></label>
+            <br>
+            <label>Nombre: <input type="text" name="nombre"></label>
+            <br>
+            <label>Apellidos: <input type="text" name="apellidos"></label>
+            <br>
+            <label>Email: <input type="text" name="email"></label>
+            <br><br>
+
+            <!-- Segundo control para indicar la fecha -->
+            <label>Fecha: <input type="date" name="fecha2"></label>
+        </fieldset>
+    </form>
+</body>
+</html>

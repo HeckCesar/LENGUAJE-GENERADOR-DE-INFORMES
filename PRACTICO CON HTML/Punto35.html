@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+   <title>Formulario punto 35</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Completar las opciones</legend>
+            <!-- Control para elegir ficheros -->
+            <label for="archivo1">Seleccione un archivo:</label>
+            <input type="file" id="archivo1" name="archivo1"><br><br>
+
+            <!-- Radiobuttons para formato -->
+            <label>Formato:</label>
+            <input type="radio" id="formatojpg" name="formato" value="formatojpg">
+            <label for="formatojpg">JPG</label>
+            <input type="radio" id="formatopng" name="formato" value="formatopng">
+            <label for="formatopng">PNG</label>
+            <br><br>
+
+            <!-- Cuadros de texto -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos"><br><br>
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" name="direccion"><br><br>
+
+            <!-- Checkboxes de hardware -->
+            <label>Hardware:</label>
+            <input type="checkbox" id="tarjeta_aceleradora" name="hardware" value="hardwaretarjeta_aceleradora"><br>
+            <label for="tarjeta_aceleradora">Tarjeta aceleradora</label>
+            <input type="checkbox" id="monitor_led" name="hardware" value="hardwaremonitor_led"><br>
+            <label for="monitor_led">Monitor LED</label>
+            <input type="checkbox" id="ssd" name="hardware" value="hardwaressd"><br>
+            <label for="ssd">SSD</label>
+            <br><br>
+
+            <!-- Control para indicar la fecha -->
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br><br>
+
+            <!-- Control para elegir el color -->
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <!-- Segundo control para elegir ficheros -->
+            <label for="archivo2">Seleccione otro archivo:</label>
+            <input type="file" id="archivo2" name="archivo2"><br><br>
+
+            <!-- Textarea -->
+            <label for="texto">Texto:</label><br>
+            <textarea id="texto" name="texto" rows="5" cols="60">Inserte aqui el texto</textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

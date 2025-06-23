@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario punto 34</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Completar estas opciones</legend>
+            <div>
+                <label><input type="checkbox" name="ciclo" value="cicloasir"> ASIR</label><br>
+                <label><input type="checkbox" name="ciclo" value="ciclodam"> DAM</label><br>
+                <label><input type="checkbox" name="ciclo" value="ciclodaw"> DAW</label><br>
+            </div>
+            <div>
+                <label for="ciclo-select">Ciclos:</label>
+                <select name="ciclo" id="ciclo-select" multiple size="4">
+                    <option value="smir">SMIR</option>
+                    <option value="asir">ASIR</option>
+                    <option value="dam">DAM</option>
+                    <option value="daw">DAW</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="comentarios" rows="5" cols="53">Por favor, escriba aquí</textarea>
+            </div>
+            <div>
+                <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni">
+            </div>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos">
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

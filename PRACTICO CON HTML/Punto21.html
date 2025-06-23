@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 21" content="Punto 21 practico">
+    <title>Formulario punto 21</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Complete, por favor</legend>
+            <!-- Checkboxes de conexión -->
+            <label><input type="checkbox" name="conexion" value="conexionwifi"> Wifi</label><br>
+            <label><input type="checkbox" name="conexion" value="conexioncable"> Cable</label><br>
+                <label><input type="checkbox" name="conexion" value="conexionfibra"> Fibra</label><br>
+                <br><br>
+
+            <!-- Radiobuttons de procesador -->
+            <label><input type="radio" name="procesador" value="procesadorintel"> Intel</label>
+            <label><input type="radio" name="procesador" value="procesadoramd"> AMD</label>
+            <br><br>
+
+            <!-- Cuadros de texto -->
+            <label>Nombre: <input type="text" name="nombre"></label>
+            <br>
+            <label>Apellidos: <input type="text" name="apellidos"></label>
+            <br>
+            <label>Teléfono: <input type="text" name="telefono"></label>
+            <br><br>
+
+            <!-- Control para elegir ficheros -->
+            <label>Archivo: <input type="file" name="archivo"></label>
+            <br><br>
+
+            <!-- Control para indicar la fecha -->
+            <label>Fecha: <input type="date" name="fecha"></label>
+            <br><br>
+
+            <!-- Control para indicar la hora -->
+            <label>Hora: <input type="time" name="hora"></label>
+            <br><br>
+
+            <!-- Lista desplegable -->
+            <label>Conector:
+                <select name="conector">
+                    <option value="usb">USB</option>
+                    <option value="paralelo">Paralelo</option>
+                    <option value="ps2">PS2</option>
+                </select>
+            </label>
+            <br><br>
+
+            <!-- Segundo control para indicar la hora -->
+            <label>Hora 2: <input type="time" name="hora2"></label>
+            <br><br>
+
+            <!-- Control para elegir el color -->
+            <label>Color: <input type="color" name="color"></label>
+            <br><br>
+
+            <!-- Textarea -->
+            <textarea name="comentarios" rows="6" cols="48">Por favor, escriba aquí</textarea>
+            <br><br>
+
+            <!-- Checkboxes de medio de transporte -->
+            <label><input type="checkbox" name="medio_transporte" value="medio_transporteautomovil"> Automóvil</label>
+            <label><input type="checkbox" name="medio_transporte" value="medio_transportemoto"> Moto</label>
+            <label><input type="checkbox" name="medio_transporte" value="medio_transporteautobus"> Autobús</label>
+        </fieldset>
+    </form>
+</html>

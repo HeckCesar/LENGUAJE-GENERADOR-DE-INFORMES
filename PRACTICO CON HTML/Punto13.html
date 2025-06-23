@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 13" content="Punto 13 practico">
+    <title>Formulario punto 13</title>
+</head>
+<body>
+     <form>
+    <fieldset>
+        <legend>Rellenar</legend>
+       
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br><br>
+
+            <label>Medio de transporte:</label><br>
+            <input type="checkbox" id="automovil" name="medio_transporte" value="medio_transporteautomovil">
+            <label for="automovil">Automóvil</label><br>
+            <input type="checkbox" id="moto" name="medio_transporte" value="medio_transportemoto">
+            <label for="moto">Moto</label><br>
+            <input type="checkbox" id="autobus" name="medio_transporte" value="medio_transporteautobus">
+            <label for="autobus">Autobús</label><br><br>
+
+            <label for="fichero">Elegir fichero:</label>
+            <input type="file" id="fichero" name="fichero"><br><br>
+
+            <label for="procesador">Procesador:</label>
+            <select id="procesador" name="procesador">
+                <option value="intel">Intel</option>
+                <option value="amd">AMD</option>
+            </select><br><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos"><br><br>
+
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono"><br><br>
+
+            <input type="submit" value="Enviar">
+       
+    </fieldset>
+     </form>
+</body>
+</html>

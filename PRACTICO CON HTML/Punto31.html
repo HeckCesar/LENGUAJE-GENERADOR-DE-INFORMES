@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Formulario punto 31</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+            <!-- Checkboxes: conector -->
+            <label><input type="checkbox" name="conector" value="conectorusb"> USB</label>
+            <label><input type="checkbox" name="conector" value="conectorparalelo"> Paralelo</label>
+            <label><input type="checkbox" name="conector" value="conectorps2"> PS2</label>
+            <br><br>
+
+            <!-- Textarea 8x55 -->
+            <textarea rows="8" cols="55">Por favor, escriba aquí</textarea>
+            <br><br>
+
+            <!-- Radiobuttons: ciclo -->
+            <label><input type="radio" name="ciclo" value="cicloasir"> ASIR</label>
+            <label><input type="radio" name="ciclo" value="ciclodam"> DAM</label>
+            <label><input type="radio" name="ciclo" value="ciclodaw"> DAW</label>
+            <br><br>
+
+            <!-- Fecha -->
+            <label>Fecha: <input type="date" name="fecha1"></label>
+            <br><br>
+
+            <!-- Lista desplegable múltiple: asignatura -->
+            <label>Asignaturas:
+            <select name="asignatura" multiple size="4">
+                <option value="geografia">Geografía</option>
+                <option value="lengua">Lengua</option>
+                <option value="matematicas">Matemáticas</option>
+                <option value="historia">Historia</option>
+            </select>
+            </label>
+            <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Formulario de Opciones</legend>
+
+            <!-- Fecha (segunda vez) -->
+            <label>Fecha: <input type="date" name="fecha2"></label>
+            <br><br>
+
+            <!-- Fichero -->
+            <label>Fichero: <input type="file" name="fichero"></label>
+            <br><br>
+
+            <!-- Color -->
+            <label>Color: <input type="color" name="color"></label>
+            <br><br>
+
+            <!-- Checkboxes: asignatura -->
+            <label><input type="checkbox" name="asignatura" value="asignaturalengua"> Lengua</label>
+            <label><input type="checkbox" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+            <label><input type="checkbox" name="asignatura" value="asignaturahistoria"> Historia</label>
+            <label><input type="checkbox" name="asignatura" value="asignaturageografia"> Geografía</label>
+            <br><br>
+
+            <!-- Lista desplegable múltiple: medio_transporte -->
+            <label>Medio de transporte:
+            <select name="medio_transporte" multiple size="3">
+                <option value="automovil">Automóvil</option>
+                <option value="moto">Moto</option>
+                <option value="autobus">Autobús</option>
+            </select>
+            </label>
+            <br><br>
+
+            <!-- Textarea 7x60 -->
+            <textarea rows="7" cols="60">Utilice este recuadro por favor</textarea>
+            <br><br>
+
+            <!-- Radiobuttons: editor -->
+            <label><input type="radio" name="editor" value="editornotepad"> Notepad</label>
+            <label><input type="radio" name="editor" value="editoremacs"> Emacs</label>
+            <label><input type="radio" name="editor" value="editorotro"> Otro</label>
+            <br><br>
+
+            <!-- Hora -->
+            <label>Hora: <input type="time" name="hora"></label>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Formulario punto 36</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Complete, por favor</legend>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br><br>
+
+            <label for="fichero">Elegir fichero:</label>
+            <input type="file" id="fichero" name="fichero"><br><br>
+
+            <label for="color">Elija un color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="provincia">Provincia:</label>
+            <select id="provincia" name="provincia" multiple>
+                <option value="albacete">Albacete</option>
+                <option value="ciudad_real">Ciudad Real</option>
+                <option value="cuenca">Cuenca</option>
+                <option value="guadalajara">Guadalajara</option>
+                <option value="toledo">Toledo</option>
+            </select><br><br>
+
+            <label>Conector:</label>
+            <input type="radio" id="usb" name="conector" value="conectorusb">
+            <label for="usb">USB</label>
+            <input type="radio" id="paralelo" name="conector" value="conectorparalelo">
+            <label for="paralelo">Paralelo</label>
+            <input type="radio" id="ps2" name="conector" value="conectorps2">
+            <label for="ps2">PS2</label>
+        </fieldset>
+    </form>
+</body>
+</html>

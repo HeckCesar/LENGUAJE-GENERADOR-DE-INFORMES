@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">    
+    <head>
+        <title>Punto 29 </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Rellene las opciones siguientes</legend>
+                <!-- Radiobuttons asignatura -->
+                <p>
+                    <label><input type="radio" name="asignatura" value="asignaturalengua"> Lengua</label>
+                    <label><input type="radio" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+                    <label><input type="radio" name="asignatura" value="asignaturahistoria"> Historia</label>
+                    <label><input type="radio" name="asignatura" value="asignaturageografia"> Geografía</label>
+                </p>
+
+                <!-- Lista desplegable múltiple asignatura -->
+                <p>
+                    <label>Asignaturas:
+                        <select name="asignatura" multiple size="4">
+                            <option value="lengua">Lengua</option>
+                            <option value="matematicas">Matemáticas</option>
+                            <option value="historia">Historia</option>
+                            <option value="geografia">Geografía</option>
+                        </select>
+                    </label>
+                </p>
+
+                <!-- Control para elegir color -->
+                <p>
+                    <label>Elija un color: <input type="color" name="color1"></label>
+                </p>
+
+                <!-- Cuadros de texto Instituto y Estudios elegidos -->
+                <p>
+                    <label>Instituto: <input type="text" name="instituto"></label>
+                </p>
+                <p>
+                    <label>Estudios elegidos: <input type="text" name="estudios"></label>
+                </p>
+
+                <!-- Control para elegir ficheros -->
+                <p>
+                    <label>Elija un fichero: <input type="file" name="fichero"></label>
+                </p>
+
+                <!-- Checkboxes dia -->
+                <p>
+                    <label><input type="checkbox" name="dia" value="dialunes"> Lunes</label>
+                    <label><input type="checkbox" name="dia" value="diamartes"> Martes</label>
+                    <label><input type="checkbox" name="dia" value="diamiercoles"> Miércoles</label>
+                    <label><input type="checkbox" name="dia" value="diajueves"> Jueves</label>
+                    <label><input type="checkbox" name="dia" value="diasabado"> Sabado</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Por favor, complete estas opciones</legend>
+
+                <!-- Textarea -->
+                <p>
+                    <textarea name="comentarios" rows="6" cols="45">Utilice este recuadro por favor</textarea>
+                </p>
+
+                <!-- Segundo control para elegir color -->
+                <p>
+                    <label>Elija otro color: <input type="color" name="color2"></label>
+                </p>
+
+                <!-- Radiobuttons lenguaje -->
+                <p>
+                    <label><input type="radio" name="lenguaje" value="lenguajejava"> Java</label>
+                    <label><input type="radio" name="lenguaje" value="lenguajepython"> Python</label>
+                    <label><input type="radio" name="lenguaje" value="lenguajehtml"> HTML</label>
+                    <label><input type="radio" name="lenguaje" value="lenguajevisual_basic"> Visual Basic</label>
+                    <label><input type="radio" name="lenguaje" value="lenguajecss"> CSS</label>
+                </p>
+
+                <!-- Cuadros de texto Nombre, Apellidos, Email, Telefono -->
+                <p>
+                    <label>Nombre: <input type="text" name="nombre"></label>
+                </p>
+                <p>
+                    <label>Apellidos: <input type="text" name="apellidos"></label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" name="email"></label>
+                </p>
+                <p>
+                    <label>Telefono: <input type="tel" name="telefono"></label>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>

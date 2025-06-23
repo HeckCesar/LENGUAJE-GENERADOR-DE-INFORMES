@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 24" content="Punto 24 practico">
+    <title>Formulario punto 24</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Opciones</legend>
+            <!-- Radiobuttons conexión -->
+            <label><input type="radio" name="conexion" value="conexionwifi"> Wifi</label>
+            <label><input type="radio" name="conexion" value="conexioncable"> Cable</label>
+            <label><input type="radio" name="conexion" value="conexionfibra"> Fibra</label>
+            <br><br>
+
+            <!-- Control para indicar la hora -->
+            <label>Hora: <input type="time" name="hora1"></label>
+            <br><br>
+
+            <!-- Control para elegir ficheros -->
+            <label>Archivo: <input type="file" name="archivo1"></label>
+            <br><br>
+
+            <!-- Lista desplegable preferencia -->
+            <label>Preferencia:
+                <select name="preferencia">
+                    <option value="ciencias">Ciencias</option>
+                    <option value="letras">Letras</option>
+                </select>
+            </label>
+            <br><br>
+
+            <!-- Textarea 8x45 -->
+            <textarea name="comentario1" rows="8" cols="45">Escriba aquí, por favor</textarea>
+            <br><br>
+
+            <!-- Control para indicar la fecha -->
+            <label>Fecha: <input type="date" name="fecha1"></label>
+            <br><br>
+
+            <!-- Checkboxes conector -->
+            <label><input type="checkbox" name="conector" value="conectorusb"> USB</label>
+            <label><input type="checkbox" name="conector" value="conectorparalelo"> Paralelo</label>
+            <label><input type="checkbox" name="conector" value="conectorps2"> PS2</label>
+            <br><br>
+
+            <!-- Cuadros de texto -->
+            <label>Instituto: <input type="text" name="instituto"></label>
+            <br>
+            <label>Estudios elegidos: <input type="text" name="estudios"></label>
+            <br>
+            <label>Nombre: <input type="text" name="nombre"></label>
+            <br>
+            <label>Apellidos: <input type="text" name="apellidos"></label>
+            <br>
+            <label>Email: <input type="email" name="email"></label>
+            <br><br>
+
+            <!-- Control para elegir el color -->
+            <label>Color 1: <input type="color" name="color1"></label>
+            <br>
+            </fieldset>
+            <fieldset>
+                <legend>Por favor, complete estas opciones</legend>
+            <label>Color 2: <input type="color" name="color2"></label>
+            <br><br>
+
+            <!-- Radiobuttons procesador -->
+            <label><input type="radio" name="procesador" value="procesadorintel"> Intel</label>
+            <label><input type="radio" name="procesador" value="procesadoramd"> AMD</label>
+            <br><br>
+
+            <!-- Control para indicar la hora -->
+            <label>Hora: <input type="time" name="hora2"></label>
+            <br><br>
+
+            <!-- Control para elegir ficheros -->
+            <label>Archivo: <input type="file" name="archivo2"></label>
+            <br><br>
+
+            <!-- Lista desplegable múltiple idioma -->
+            <label>Idiomas:
+                <select name="idioma" multiple size="3">
+                    <option value="ingles">Inglés</option>
+                    <option value="aleman">Alemán</option>
+                    <option value="frances">Francés</option>
+                </select>
+            </label>
+            <br><br>
+
+            <!-- Cuadros de texto adicionales -->
+            <label>Nombre: <input type="text" name="nombre2"></label>
+            <br>
+            <label>Apellidos: <input type="text" name="apellidos2"></label>
+            <br>
+            <label>Email: <input type="email" name="email2"></label>
+            <br>
+            <label>Teléfono: <input type="tel" name="telefono"></label>
+            <br><br>
+
+            <!-- Checkboxes provincia -->
+            <label><input type="checkbox" name="provincia" value="provinciaalbacete"> Albacete</label>
+            <label><input type="checkbox" name="provincia" value="provinciaciudad_real"> Ciudad Real</label>
+            <label><input type="checkbox" name="provincia" value="provinciacuenca"> Cuenca</label>
+            <label><input type="checkbox" name="provincia" value="provinciaguadalajara"> Guadalajara</label>
+            <label><input type="checkbox" name="provincia" value="provinciatoledo"> Toledo</label>
+            <br><br>
+
+            <!-- Control para indicar la fecha -->
+            <label>Fecha: <input type="date" name="fecha2"></label>
+            <br><br>
+
+            <!-- Textarea 8x49 -->
+            <textarea name="comentario2" rows="8" cols="49">Utilice este cuadro para escribir</textarea>
+        </fieldset>
+    </form>
+</body>

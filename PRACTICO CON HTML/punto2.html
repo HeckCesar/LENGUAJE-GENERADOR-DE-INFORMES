@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 2" content="Punto 2 practico">
+    <title>Formulario punto 2</title>
+</head>
+<body>
+    <form>
+        <label for="fecha1">Fecha:</label>
+        <input type="date" id="fecha1" name="fecha1"><br><br>
+
+        <label for="fichero1">Elegir fichero:</label>
+        <input type="file" id="fichero1" name="fichero1"><br><br>
+
+        <fieldset>
+            <legend>Procesador</legend>
+            <input type="radio" id="amd" name="procesador" value="procesadoramd">
+            <label for="amd">AMD</label>
+            <input type="radio" id="intel_i5" name="procesador" value="procesadorintel_i5">
+            <label for="intel_i5">Intel i5</label>
+            <input type="radio" id="intel_i7" name="procesador" value="procesadorintel_i7">
+            <label for="intel_i7">Intel i7</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Asignatura</legend>
+            <input type="radio" id="matematicas" name="asignatura" value="asignaturamatematicas">
+            <label for="matematicas">Matemáticas</label>
+            <input type="radio" id="historia" name="asignatura" value="asignaturahistoria">
+            <label for="historia">Historia</label>
+            <input type="radio" id="geografia" name="asignatura" value="asignaturageografia">
+            <label for="geografia">Geografía</label>
+            <input type="radio" id="lengua" name="asignatura" value="asignaturalengua">
+            <label for="lengua">Lengua</label>
+        </fieldset>
+        <br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+
+        <label for="direccion">Direccion:</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
+
+        <label for="color">Elija un color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="textarea">Comentarios:</label><br>
+        <textarea id="textarea" name="comentarios" rows="6" cols="59">Utilice este cuadro para escribir</textarea><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar"> <br><br>
+
+        <label for="fecha2">Fecha:</label>
+        <input type="date" id="fecha2" name="fecha2"><br><br>
+
+        <label for="idioma">Idioma:</label>
+        <select id="idioma" name="idioma">
+            <option value="ingles">Inglés</option>
+            <option value="aleman">Alemán</option>
+            <option value="frances">Francés</option>
+        </select><br><br>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora"><br><br>
+
+        <label for="fichero2">Elegir fichero:</label>
+        <input type="file" id="fichero2" name="fichero2"><br><br>
+
+        <input type="checkbox" id="mujer" name="sexo" value="sexomujer">
+        <label for="mujer">Mujer</label>
+        <input type="checkbox" id="hombre" name="sexo" value="sexohombre">
+        <label for="hombre">Hombre</label>
+    </form>
+</body>

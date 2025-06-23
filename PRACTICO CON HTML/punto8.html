@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 8" content="Punto 8 practico">
+    <title>Formulario punto 8</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Formulario de Opciones</legend>
+        <form>
+          
+            <p>
+                <label><input type="radio" name="ciclo" value="ciclosmir"> SMIR</label>
+                <label><input type="radio" name="ciclo" value="cicloasir"> ASIR</label>
+                <label><input type="radio" name="ciclo" value="ciclodam"> DAM</label>
+                <label><input type="radio" name="ciclo" value="ciclodaw"> DAW</label>
+            </p>
+
+            <!-- Fecha -->
+            <p>
+                <label>Fecha: <input type="date" name="fecha"></label>
+            </p>
+
+            <!-- Textarea 1 -->
+            <p>
+                <textarea name="texto1" rows="8" cols="57">Inserte aqui el texto</textarea>
+            </p>
+            </fieldset>
+            <fieldset>
+                <legend> Rellene las opciones siguientes</legend>
+
+            <!-- Hora -->
+            <p>
+                <label>Hora: <input type="time" name="hora"></label>
+            </p>
+
+            <!-- Checkboxes asignatura -->
+            <p>
+                <label><input type="checkbox" name="asignatura" value="asignaturageografia"> Geografía</label>
+                <label><input type="checkbox" name="asignatura" value="asignaturalengua"> Lengua</label>
+                <label><input type="checkbox" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+                <label><input type="checkbox" name="asignatura" value="asignaturahistoria"> Historia</label>
+            </p>
+
+            <!-- Color -->
+            <p>
+                <label>Color: <input type="color" name="color"></label>
+            </p>
+
+            <!-- Textarea 2 -->
+            <p>
+                <textarea name="texto2" rows="8" cols="57">Inserte aqui el texto</textarea>
+            </p>
+
+            <!-- Radiobuttons asignatura -->
+            <p>
+                <label><input type="radio" name="asignatura" value="asignaturahistoria"> Historia</label>
+                <label><input type="radio" name="asignatura" value="asignaturageografia"> Geografía</label>
+                <label><input type="radio" name="asignatura" value="asignaturalengua"> Lengua</label>
+                <label><input type="radio" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+            </p>
+
+            <!-- Lista desplegable múltiple escritorio -->
+            <p>
+                <label>Escritorio:
+                    <select name="escritorio" multiple size="3">
+                        <option value="kde">KDE</option>
+                        <option value="gnome">GNOME</option>
+                        <option value="unity">Unity</option>
+                    </select>
+                </label>
+            </p>
+
+            <!-- Cuadros de texto -->
+            <p>
+                <label>Nombre: <input type="text" name="nombre"></label>
+            </p>
+            <p>
+                <label>Apellidos: <input type="text" name="apellidos"></label>
+            </p>
+            <p>
+                <label>Telefono: <input type="text" name="telefono"></label>
+            </p>
+            </fieldset>
+        </form>
+
+    </fieldset>
+</html>

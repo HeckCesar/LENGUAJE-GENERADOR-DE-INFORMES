@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>Formulario punto 40</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Preferencias</legend>
+            <label for="velocidad">Velocidad:</label>
+            <select name="velocidad" id="velocidad" multiple>
+                <option value="100_mbits">100 Mbits</option>
+                <option value="1000_mbits">1000 Mbits</option>
+            </select>
+            <br><br>
+
+            <label for="dni">DNI:</label>
+            <input type="text" id="dni" name="dni">
+            <br><br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color">
+            <br><br>
+
+            <textarea name="comentario1" rows="6" cols="49">Por favor, escriba aquí</textarea>
+            <br><br>
+
+            <label>Procesador:</label>
+            <input type="checkbox" name="procesador" value="procesadoramd" id="amd">
+            <label for="amd">AMD</label>
+            <input type="checkbox" name="procesador" value="procesadorintel_i5" id="i5">
+            <label for="i5">Intel i5</label>
+            <input type="checkbox" name="procesador" value="procesadorintel_i7" id="i7">
+            <label for="i7">Intel i7</label>
+            <br><br>
+
+            <label for="hora1">Hora:</label>
+            <input type="time" id="hora1" name="hora1">
+            <br><br>
+
+            <label>Red:</label>
+            <input type="radio" name="red" value="red2g" id="red2g">
+            <label for="red2g">2G</label>
+            <input type="radio" name="red" value="red3g" id="red3g">
+            <label for="red3g">3G</label>
+            <input type="radio" name="red" value="red4g" id="red4g">
+            <label for="red4g">4G</label>
+            <br><br>
+
+            <label for="fichero1">Elegir fichero:</label>
+            <input type="file" id="fichero1" name="fichero1">
+            <br><br>
+
+            <label>Asignatura:</label>
+            <input type="checkbox" name="asignatura" value="asignaturahistoria" id="historia">
+            <label for="historia">Historia</label>
+            <input type="checkbox" name="asignatura" value="asignaturageografia" id="geografia">
+            <label for="geografia">Geografía</label>
+            <input type="checkbox" name="asignatura" value="asignaturalengua" id="lengua">
+            <label for="lengua">Lengua</label>
+            <input type="checkbox" name="asignatura" value="asignaturamatematicas" id="matematicas">
+            <label for="matematicas">Matemáticas</label>
+            <br><br>
+
+            <label for="hora2">Hora:</label>
+            <input type="time" id="hora2" name="hora2">
+            <br><br>
+
+            <label for="fichero2">Elegir fichero:</label>
+            <input type="file" id="fichero2" name="fichero2">
+            <br><br>
+
+            <textarea name="comentario2" rows="8" cols="49">Inserte aqui el texto</textarea>
+        </fieldset>
+    </form>
+</html>

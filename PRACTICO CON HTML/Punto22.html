@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 22" content="Punto 22 practico">
+    <title>Formulario punto 22</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulario de Opciones</legend>
+            <!-- Radiobuttons: Lenguaje -->
+            <p>
+                <label><input type="radio" name="lenguaje" value="lenguajejava"> Java</label>
+                <label><input type="radio" name="lenguaje" value="lenguajepython"> Python</label>
+                <label><input type="radio" name="lenguaje" value="lenguajehtml"> HTML</label>
+                <label><input type="radio" name="lenguaje" value="lenguajevisual_basic"> Visual Basic</label>
+                <label><input type="radio" name="lenguaje" value="lenguajecss"> CSS</label>
+            </p>
+
+            <!-- Checkboxes: Conector -->
+            <p>
+                <label><input type="checkbox" name="conector" value="conectorusb"> USB</label>
+                <label><input type="checkbox" name="conector" value="conectorparalelo"> Paralelo</label>
+                <label><input type="checkbox" name="conector" value="conectorps2"> PS2</label>
+            </p>
+
+            <!-- Lista desplegable múltiple: Lenguaje -->
+            <p>
+                <label>Lenguajes:
+                    <select name="lenguaje" multiple size="5">
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="html">HTML</option>
+                        <option value="visual_basic">Visual Basic</option>
+                        <option value="css">CSS</option>
+                    </select>
+                </label>
+            </p>
+
+            <!-- Control para elegir ficheros -->
+            <p>
+                <label>Archivo: <input type="file" name="archivo1"></label>
+            </p>
+
+            <!-- Control para indicar la fecha -->
+            <p>
+                <label>Fecha: <input type="date" name="fecha1"></label>
+            </p>
+
+            <!-- Cuadros de texto -->
+            <p>
+                <label>DNI: <input type="text" name="dni"></label><br>
+                <label>Nombre: <input type="text" name="nombre"></label><br>
+                <label>Apellidos: <input type="text" name="apellidos"></label><br>
+                <label>Telefono: <input type="text" name="telefono"></label><br>
+            </p>
+
+            <!-- Control para indicar la hora -->
+            <p>
+                <label>Hora: <input type="time" name="hora1"></label>
+            </p>
+
+            <!-- Control para elegir el color -->
+            <p>
+                <label>Color: <input type="color" name="color1"></label>
+            </p>
+
+            <!-- Radiobuttons: Sistema -->
+            <p>
+                <label><input type="radio" name="sistema" value="sistemawindows"> Windows</label>
+                <label><input type="radio" name="sistema" value="sistemamac"> Mac</label>
+                <label><input type="radio" name="sistema" value="sistemalinux"> Linux</label>
+            </p>
+
+            <!-- Lista desplegable: Sistema -->
+            <p>
+                <label>Sistema:
+                    <select name="sistema">
+                        <option value="windows">Windows</option>
+                        <option value="mac">Mac</option>
+                        <option value="linux">Linux</option>
+                    </select>
+                </label>
+            </p>
+
+            <!-- Control para elegir el color -->
+            <p>
+                <label>Color: <input type="color" name="color2"></label>
+            </p>
+
+            <!-- Control para indicar la fecha -->
+            <p>
+                <label>Fecha: <input type="date" name="fecha2"></label>
+            </p>
+
+            <!-- Textarea -->
+            <p>
+                <textarea name="texto" rows="8" cols="59">Inserte aqui el texto</textarea>
+            </p>
+
+            <!-- Cuadros de texto -->
+            <p>
+                <label>Nombre: <input type="text" name="nombre"></label><br>
+                <label>Apellidos: <input type="text" name="apellidos"></label><br>
+                <label>Telefono: <input type="text" name="telefono"></label><br>
+            </p>
+
+            <!-- Checkboxes: Idioma -->
+            <p>
+                <label><input type="checkbox" name="idioma" value="idiomaespanol"> Español</label>
+                <label><input type="checkbox" name="idioma" value="idiomaingles"> Inglés</label>
+                <label><input type="checkbox" name="idioma" value="idiomaaleman"> Alemán</label>
+                <label><input type="checkbox" name="idioma" value="idiomafrances"> Francés</label>
+            </p>
+
+            <!-- Control para elegir ficheros -->
+            <p>
+                <label>Archivo: <input type="file" name="archivo2"></label>
+            </p>
+
+            <!-- Control para indicar la hora -->
+            <p>
+                <label>Hora: <input type="time" name="hora2"></label>
+            </p>
+        </fieldset>
+    </form>
+</html>

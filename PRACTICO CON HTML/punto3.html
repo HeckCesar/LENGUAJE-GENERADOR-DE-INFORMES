@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 3" content="Punto 3 practico">
+    <title>Formulario punto 3</title>   
+</head>
+<body>  
+    <form>
+        <label for="color">Elija un color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="5" cols="53">Por favor, escriba aquí</textarea><br><br>
+
+        <label for="lenguaje">Lenguaje:</label>
+        <select id="lenguaje" name="lenguaje">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="html">HTML</option>
+            <option value="visual_basic">Visual Basic</option>
+        </select><br>
+
+        <label>Ciclo:</label><br>
+        <input type="checkbox" id="asir" name="ciclo" value="cicloasir">
+        <label for="asir">ASIR</label>
+        <input type="checkbox" id="dam" name="ciclo" value="ciclodam">
+        <label for="dam">DAM</label>
+        <input type="checkbox" id="daw" name="ciclo" value="ciclodaw">
+        <label for="daw">DAW</label>
+        <br><br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <label for="fichero">Elija un fichero:</label>
+        <input type="file" id="fichero" name="fichero"><br><br>
+
+        <label for="ciclo-multiple">Ciclo (múltiple):</label>
+        <select id="ciclo-multiple" name="ciclo" multiple size="4">
+            <option value="smir">SMIR</option>
+            <option value="asir">ASIR</option>
+            <option value="dam">DAM</option>
+            <option value="daw">DAW</option>
+        </select>
+    </form>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 1" content="Punto 1 practico">
+    <title>Formulario punto 1</title>
+    </head>
+<body>
+<form>
+    <!-- Radiobuttons para idioma -->
+    <label>
+        <input type="radio" name="idioma" value="idiomaingles"> Inglés
+    </label>
+    <label>
+        <input type="radio" name="idioma" value="idiomaaleman"> Alemán
+    </label>
+    <label>
+        <input type="radio" name="idioma" value="idiomafrances"> Francés
+    </label>
+    <br><br>
+
+    <!-- Lista desplegable para conector -->
+    <label for="conector">Conector:</label>
+    <select name="conector" id="conector">
+        <option value="usb">USB</option>
+        <option value="paralelo">Paralelo</option>
+        <option value="ps2">PS2</option>
+    </select>
+    <br><br>
+
+    <!-- Cuadros de texto -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+    <br>
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" name="apellidos" id="apellidos">
+    <br><br>
+
+    <!-- Lista desplegable múltiple para sexo -->
+    <label for="sexo-multiple">Sexo (múltiple):</label>
+    <select name="sexo" id="sexo-multiple" multiple>
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+    </select>
+    <br><br>
+
+    <!-- Checkboxes para sexo -->
+    <label>
+        <input type="checkbox" name="sexo" value="sexomujer"> Mujer
+    </label>
+    <label>
+        <input type="checkbox" name="sexo" value="sexohombre"> Hombre
+    </label>
+    <br><br>
+
+    <!-- Control para fecha -->
+    <label for="fecha">Fecha:</label>
+    <input type="date" name="fecha" id="fecha">
+</form>

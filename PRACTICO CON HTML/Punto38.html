@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Formulario punto 38</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+            <!-- Radio buttons para idioma -->
+            <label><input type="radio" name="idioma" value="idiomaingles"> Inglés</label>
+            <label><input type="radio" name="idioma" value="idiomaaleman"> Alemán</label>
+            <label><input type="radio" name="idioma" value="idiomafrances"> Francés</label>
+            <br><br>
+
+            <!-- Textarea 8x53 -->
+            <textarea name="texto1" rows="8" cols="53">Inserte aqui el texto</textarea>
+            <br><br>
+
+            <!-- Fecha -->
+            <label>Fecha: <input type="date" name="fecha1"></label>
+            <br><br>
+
+            <!-- Hora -->
+            <label>Hora: <input type="time" name="hora1"></label>
+            <br><br>
+
+            <!-- Lista desplegable múltiple conexion -->
+            <label>Conexión:
+                <select name="conexion" multiple size="3">
+                    <option value="wifi">Wifi</option>
+                    <option value="cable">Cable</option>
+                    <option value="fibra">Fibra</option>
+                </select>
+            </label>
+            <br><br>
+
+            <!-- Elegir ficheros -->
+            <label>Archivo: <input type="file" name="archivo1"></label>
+            <br><br>
+
+            <!-- Elegir color -->
+            <label>Color: <input type="color" name="color"></label>
+            <br><br>
+
+            <!-- Checkboxes conexion -->
+            <label><input type="checkbox" name="conexion" value="conexionwifi"> Wifi</label>
+            <label><input type="checkbox" name="conexion" value="conexioncable"> Cable</label>
+            <label><input type="checkbox" name="conexion" value="conexionfibra"> Fibra</label>
+            <br><br>
+
+            <!-- Cuadros de texto instituto, estudios, nombre, apellidos, email -->
+            <label>Instituto: <input type="text" name="instituto" value="Instituto"></label>
+            <br>
+            <label>Estudios elegidos: <input type="text" name="estudios" value="Estudios elegidos"></label>
+            <br>
+            <label>Nombre: <input type="text" name="nombre" value="Nombre"></label>
+            <br>
+            <label>Apellidos: <input type="text" name="apellidos" value="Apellidos"></label>
+            <br>
+            <label>Email: <input type="email" name="email" value="Email"></label>
+            <br><br>
+
+            <!-- Textarea 6x57 -->
+            <textarea name="texto2" rows="6" cols="57">Utilice este recuadro por favor</textarea>
+            <br><br>
+
+            <!-- Cuadros de texto nombre, apellidos, telefono -->
+            <label>Nombre: <input type="text" name="nombre" value="Nombre"></label>
+            <br>
+            <label>Apellidos: <input type="text" name="apellidos" value="Apellidos"></label>
+            <br>
+            <label>Telefono: <input type="text" name="telefono" value="Telefono"></label>
+            <br><br>
+
+            <!-- Lista desplegable lenguaje -->
+            <label>Lenguaje:
+                <select name="lenguaje">
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="html">HTML</option>
+                    <option value="visual_basic">Visual Basic</option>
+                    <option value="css">CSS</option>
+                </select>
+            </label>
+            <br><br>
+
+            <!-- Elegir ficheros -->
+            <label>Archivo: <input type="file" name="archivo2"></label>
+            <br><br>
+
+            <!-- Radio buttons asignatura -->
+            <label><input type="radio" name="asignatura" value="asignaturalengua"> Lengua</label>
+            <label><input type="radio" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+            <label><input type="radio" name="asignatura" value="asignaturahistoria"> Historia</label>
+            <label><input type="radio" name="asignatura" value="asignaturageografia"> Geografía</label>
+            <br><br>
+
+            <!-- Hora -->
+            <label>Hora: <input type="time" name="hora2"></label>
+            <br><br>
+
+            <!-- Fecha -->
+            <label>Fecha: <input type="date" name="fecha2"></label>
+            <br><br>
+
+            <!-- Checkboxes ciclo -->
+            <label><input type="checkbox" name="ciclo" value="ciclosmir"> SMIR</label>
+            <label><input type="checkbox" name="ciclo" value="cicloasir"> ASIR</label>
+            <label><input type="checkbox" name="ciclo" value="ciclodam"> DAM</label>
+            <label><input type="checkbox" name="ciclo" value="ciclodaw"> DAW</label>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 27" content="Punto 27practico">
+    <title>Formulario punto 27</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Por favor, complete estas opciones</legend>
+            <label for="fecha">Por Favor elija una Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br><br>
+
+            <label for="fichero">Favor de Elegir fichero:</label>
+            <input type="file" id="fichero" name="fichero"><br><br>
+
+            <label>Formato:</label>
+            <input type="checkbox" id="formatojpg" name="formato" value="formatojpg">
+            <label for="formatojpg">JPG</label>
+            <input type="checkbox" id="formatopng" name="formato" value="formatopng">
+            <label for="formatopng">PNG</label>
+            <br><br>
+
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label for="instituto">Instituto:</label>
+            <input type="text" id="instituto" name="instituto"><br><br>
+
+            <label for="estudios">Estudios elegidos:</label>
+            <input type="text" id="estudios" name="estudios"><br><br>
+
+            <label for="texto">Texto:</label><br>
+            <textarea id="texto" name="texto" rows="4" cols="60">Inserte aqui el texto</textarea>
+            <br><br>
+
+            <label for="hardware">Hardware:</label>
+            <select id="hardware" name="hardware">
+                <option value="tarjeta_aceleradora">Tarjeta aceleradora</option>
+                <option value="monitor_led">Monitor LED</option>
+                <option value="ssd">SSD</option>
+            </select>
+            <br><br>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora">
+        </fieldset>
+    </form>
+</body>
+</html>

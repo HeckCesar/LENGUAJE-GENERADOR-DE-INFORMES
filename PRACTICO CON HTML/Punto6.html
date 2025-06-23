@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 6" content="Punto 6 practico">
+    <title>Formulario punto 6</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Preferencias</legend>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora"><br><br>
+
+        <label for="fichero">Elegir fichero:</label>
+        <input type="file" id="fichero" name="fichero"><br><br>
+
+        <label for="lenguaje">Lenguajes:</label>
+        <select id="lenguaje" name="lenguaje" multiple>
+            <option value="python">Python</option>
+            <option value="html">HTML</option>
+            <option value="visual_basic">Visual Basic</option>
+            <option value="java">Java</option>
+        </select><br><br>
+
+        <label for="color">Elija un color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label>Hardware:</label>
+        <input type="checkbox" id="monitor_led" name="hardware" value="hardwaremonitor_led">
+        <label for="monitor_led">Monitor LED</label>
+        <input type="checkbox" id="ssd" name="hardware" value="hardwaressd">
+        <label for="ssd">SSD</label><br><br>
+
+        <textarea name="texto" rows="5" cols="48">Inserte aqui el texto</textarea><br><br>
+
+        <label for="instituto">Instituto:</label>
+        <input type="text" id="instituto" name="instituto"><br><br>
+
+        <label for="estudios">Estudios elegidos:</label>
+        <input type="text" id="estudios" name="estudios"><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label>Conector:</label>
+        <input type="radio" id="usb" name="conector" value="conectorusb">
+        <label for="usb">USB</label>
+        <input type="radio" id="paralelo" name="conector" value="conectorparalelo">
+        <label for="paralelo">Paralelo</label>
+        <input type="radio" id="ps2" name="conector" value="conectorps2">
+        <label for="ps2">PS2</label>
+        </fieldset> 
+    </form>
+</html>

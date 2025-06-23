@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 11" content="Punto 11 practico">
+    <title>Formulario punto 11</title>
+</head>
+<body>
+<fieldset>
+    <legend>Preferencias </legend>
+    <form>
+       
+        <label><input type="checkbox" name="asignatura" value="asignaturageografia"> Geografía</label>
+        <label><input type="checkbox" name="asignatura" value="asignaturalengua"> Lengua</label>
+        <label><input type="checkbox" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+        <label><input type="checkbox" name="asignatura" value="asignaturahistoria"> Historia</label>
+        <br><br>
+
+        <!-- Textarea 8x56 -->
+        <textarea rows="8" cols="56">Escriba aquí, por favor</textarea>
+        <br><br>
+
+        <!-- Text inputs -->
+        <label>DNI: <input type="text" name="dni"></label>
+        <label>Nombre: <input type="text" name="nombre"></label>
+        <label>Apellidos: <input type="text" name="apellidos"></label>
+        <label>Email: <input type="email" name="email"></label>
+        <br><br>
+
+        <!-- Fecha -->
+        <label>Fecha: <input type="date" name="fecha"></label>
+        <br><br>
+
+        <!-- Color -->
+        <label>Color: <input type="color" name="color1"></label>
+        <br><br>
+
+        <!-- Hora -->
+        <label>Hora: <input type="time" name="hora1"></label>
+        <br><br>
+
+        <!-- Lista desplegable velocidad -->
+        <label>Velocidad:
+            <select name="velocidad">
+                <option value="100_mbits">100 Mbits</option>
+                <option value="1000_mbits">1000 Mbits</option>
+            </select>
+        </label>
+        <br><br>
+
+        <!-- Radiobuttons lenguaje -->
+        <label><input type="radio" name="lenguaje" value="lenguajepython"> Python</label>
+        <label><input type="radio" name="lenguaje" value="lenguajehtml"> HTML</label>
+        <label><input type="radio" name="lenguaje" value="lenguajevisual_basic"> Visual Basic</label>
+        <label><input type="radio" name="lenguaje" value="lenguajejava"> Java</label>
+        <br><br>
+
+        <!-- Fichero -->
+        <label>Archivo: <input type="file" name="fichero1"></label>
+        <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Rellene las Siguientes Opciones</legend>
+
+
+        <!-- Radiobuttons hardware -->
+        <label><input type="radio" name="hardware" value="hardwaretarjeta_aceleradora"> Tarjeta aceleradora</label>
+        <label><input type="radio" name="hardware" value="hardwaremonitor_led"> Monitor LED</label>
+        <label><input type="radio" name="hardware" value="hardwaressd"> SSD</label>
+        <br><br>
+
+        <!-- Text inputs -->
+        <label>DNI: <input type="text" name="dni"></label>
+        <label>Nombre: <input type="text" name="nombre"></label>
+       
+        <br><br>
+
+        <!-- Color -->
+        <label>Color: <input type="color" name="color2"></label>
+        <br><br>
+
+        <!-- Checkboxes asignatura (repetidos) -->
+        <label><input type="checkbox" name="asignatura" value="asignaturamatematicas"> Matemáticas</label>
+        <label><input type="checkbox" name="asignatura" value="asignaturahistoria"> Historia</label>
+        <label><input type="checkbox" name="asignatura" value="asignaturageografia"> Geografía</label>
+        <label><input type="checkbox" name="asignatura" value="asignaturalengua"> Lengua</label>
+        <br><br>
+
+        <!-- Fichero -->
+        <label>Archivo: <input type="file" name="fichero2"></label>
+        <br><br>
+
+        <!-- Textarea 7x57 -->
+        <textarea rows="7" cols="57">Escriba aquí, por favor</textarea>
+        <br><br>
+
+        <!-- Hora -->
+        <label>Hora: <input type="time" name="hora2"></label>
+        <br><br>
+
+        <!-- Lista desplegable lenguaje -->
+        <label>Lenguaje:
+            <select name="lenguaje">
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="html">HTML</option>
+                <option value="visual_basic">Visual Basic</option>
+            </select>
+        </label>
+        <br><br>
+    </form>
+</fieldset>
+
+</body>

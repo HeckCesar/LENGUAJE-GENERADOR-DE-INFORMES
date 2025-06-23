@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 23" content="Punto 23 practico">
+    <title>Formulario punto 23</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Por favor, complete las opciones</legend>
+            <label for="escritorio">Entorno de escritorio:</label>
+            <select name="escritorio" id="escritorio">
+                <option value="kde">KDE</option>
+                <option value="gnome">GNOME</option>
+                <option value="unity">Unity</option>
+            </select>
+            <br><br>
+            <label for="comentario">Comentarios:</label>
+            <br>
+            <textarea id="comentario" name="comentario" rows="5" cols="45">Escriba aquí, por favor</textarea>
+            <br><br>
+            <label for="color">Elija un color:</label>
+            <input type="color" id="color" name="color">
+            <br><br>
+            <label for="hora">Indique la hora:</label>
+            <input type="time" id="hora" name="hora">
+        </fieldset>
+    </form>
+</html>

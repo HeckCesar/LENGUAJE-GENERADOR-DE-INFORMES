@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Punto 25" content="Punto 25 practico">
+    <title>Formulario punto 25</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Por favor, complete estas opci</legend>
+            <!-- Control para elegir ficheros -->
+            <label for="archivo">Seleccione un archivo:</label>
+            <input type="file" id="archivo" name="archivo"><br><br>
+
+            <!-- Control para indicar la fecha -->
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br><br>
+
+            <!-- Lista desplegable múltiple -->
+            <label for="dias">Días:</label>
+            <select id="dias" name="dia" multiple size="5">
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miércoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="sabado">Sabado</option>
+            </select><br><br>
+
+            <!-- Radiobuttons -->
+            <label>Sexo:</label>
+            <input type="radio" id="mujer" name="sexo" value="sexomujer">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="hombre" name="sexo" value="sexohombre">
+            <label for="hombre">Hombre</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Hardware:</label>
+            <input type="checkbox" id="monitor_led" name="hardware" value="hardwaremonitor_led">
+            <label for="monitor_led">Monitor LED</label>
+            <input type="checkbox" id="ssd" name="hardware" value="hardwaressd">
+            <label for="ssd">SSD</label><br><br>
+
+            <!-- Textarea -->
+            <label for="texto">Texto:</label><br>
+            <textarea id="texto" name="texto" rows="5" cols="45">Inserte aqui el texto</textarea><br><br>
+
+            <!-- Control para elegir el color -->
+            <label for="color">Elija un color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <!-- Cuadros de texto -->
+            <label for="instituto">Instituto:</label>
+            <input type="text" id="instituto" name="instituto"><br><br>
+            <label for="estudios">Estudios elegidos:</label>
+            <input type="text" id="estudios" name="estudios"><br><br>
+
+            <!-- Control para indicar la hora -->
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
